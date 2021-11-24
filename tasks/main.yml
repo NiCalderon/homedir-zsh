@@ -1,0 +1,12 @@
+---
+# tasks file for homedir-zsh
+- name: Install zsh
+  package:
+    name: zsh
+    state: present
+  become: yes
+
+- name: Deploy .zshrc
+  copy:
+    src: zshrc.conf
+    dest: $HOME/.zshrc
