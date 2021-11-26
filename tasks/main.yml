@@ -10,3 +10,8 @@
   copy:
     src: zshrc.conf
     dest: $HOME/.zshrc
+
+- name: Set default shell
+  include_role:
+    name: homedir-shell
+    shell: zsh
