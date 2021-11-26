@@ -15,3 +15,4 @@
   include_role:
     name: homedir-shell
     shell: zsh
+    user: {{ ansible_env.USER }}
