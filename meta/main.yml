@@ -55,6 +55,4 @@ dependencies:
   # task execute: https://github.com/ansible/ansible/issues/16359
   #
   - role: https://github.com/NiCalderon/homedir-shell
-    tags: 
-      - never
-  
+    when: 'False'
