@@ -54,5 +54,5 @@ dependencies:
   # download it. For that, we use a workaround: we list as a dependency, but make no
   # task execute: https://github.com/ansible/ansible/issues/16359
   #
-  - role: https://github.com/NiCalderon/homedir-shell
+  - role: git+https://github.com/NiCalderon/homedir-shell
     when: 'False'
