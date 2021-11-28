@@ -16,4 +16,4 @@
     name: homedir-shell
   vars:
     shell: zsh
-    user: root
+    user: '{{ ansible_user_id }}'
