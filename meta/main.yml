@@ -56,4 +56,5 @@ dependencies:
   #
   - name: homedir-shell
     src: git+https://github.com/NiCalderon/homedir-shell.git
-    when: 'False'
+    tags:
+      - never
