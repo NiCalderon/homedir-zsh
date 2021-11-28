@@ -14,5 +14,6 @@
 - name: Set default shell
   include_role:
     name: homedir-shell
+  vars:
     shell: zsh
     user: test
